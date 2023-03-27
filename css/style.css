@@ -6,9 +6,9 @@ html {
 }
 
 body {
-    /* font-family: "Zen Maru Gothic", "ヒラギノ角ゴ ProN W3",
-        "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif; */
-    font-family: 'DotGothic16', sans-serif;
+    font-family: "Zen Maru Gothic", "ヒラギノ角ゴ ProN W3",
+        "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+    /* font-family: 'DotGothic16', sans-serif; */
     font-weight: 500;
     line-height: 2;
     height: 100%;
@@ -46,11 +46,14 @@ img {
     text-align: center;
 }
 
+section{
+    margin: 120px 0;
+}
 
 .header__wrapper{
+    position: relative;
     width: 100vw;
     height: 100vh;
-    position: relative;
 }
 
 .header__background{
@@ -80,23 +83,42 @@ img {
     width: 32px;
 }
 
+.news__title{
+    display: flex;
+    width: 90vw;
+    margin: 0 auto 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+.news__title h2{
+    font-size: 36px;
+}
+.news__title a{
+    display: flex;
+    align-items: center;
+}
+.news__title img{
+    height: 22px;
+    margin-right: 8px;
+}
+
 .news__card__wrapper{
     width: 90vw;
     margin: auto;
     display: flex;
 }
 .news__card{
-    width: 30vw;
+    width: 25vw;
     margin: 0 16px;
 }
-/* .news__card__image */
 .news__card__title{
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 8px;
 }
-.news__card__descriptionz{
+.news__card__description{
     margin-bottom: 12px;
+    line-height: 1.6;
 }
 .news__card__link{
     margin-bottom: 24px;
@@ -104,4 +126,20 @@ img {
 }
 .news__card__date{
     border-top: solid 1px #000;
+}
+
+.about__description{
+    width: 80vw;
+    margin: auto;
+}
+.about__wrapper{
+    display: flex;
+    width: 80vw;
+    margin: 64px auto 0;
+}
+.about__title{
+    width: 20vw;
+}
+.about__text{
+    width: 60vw;
 }
