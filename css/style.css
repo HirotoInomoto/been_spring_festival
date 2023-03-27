@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+html {
+    color: #000;
+    height: 100%;
+}
+
+body {
+    /* font-family: "Zen Maru Gothic", "ヒラギノ角ゴ ProN W3",
+        "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif; */
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: 500;
+    line-height: 2;
+    height: 100%;
+}
+
+#main {
+    display: block;
+}
+
+/* aタグの設定 */
+/* リンクには下線 */
+a {
+    color: #000;
+    text-decoration: underline;
+}
+
+/* サイトに訪れた履歴があっても色を変えない */
+a:visited {
+    color: #000;
+    text-decoration: none;
+}
+/* aタグの設定終わり */
+
+img {
+    height: auto;
+    line-height: 1;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+/* フッターの設定 */
+#footer {
+    line-height: 1;
+    padding: 160px 0;
+    text-align: center;
+}
+
+
+.header__wrapper{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.header__background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header__title{
+    position: absolute;
+    bottom: 5vh;
+    left: 5vw;
+    font-size: 36px;
+}
+
+.header__icon{
+    position: absolute;
+    display: flex;
+    width: 140px;
+    justify-content: space-around;
+    bottom: 5vh;
+    right: 5vw;
+}
+.header__icon img{
+    height: 32px;
+    width: 32px;
+}
+
+.news__card__wrapper{
+    width: 90vw;
+    margin: auto;
+    display: flex;
+}
+.news__card{
+    width: 30vw;
+    margin: 0 16px;
+}
+/* .news__card__image */
+.news__card__title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.news__card__descriptionz{
+    margin-bottom: 12px;
+}
+.news__card__link{
+    margin-bottom: 24px;
+    display: block;
+}
+.news__card__date{
+    border-top: solid 1px #000;
+}
