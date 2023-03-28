@@ -212,3 +212,39 @@ section{
 .feature__content__description{
     line-height: 1.6;
 }
+
+.recipe__title{
+    font-size: 48px;
+    text-align: center;
+}
+.recipe__subtitle{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 36px;
+}
+.recipe__content{
+    display: flex;
+    width: 95vw;
+    margin-left: 5vw;
+}
+.recipe__content__title{
+    writing-mode: vertical-rl;
+    border-top: solid 6px #000;
+    padding-top: 24px;
+    margin-right: 32px;
+}
+.recipe__content__title h4{
+    font-size: 28px;
+}
+.recipe__content__list{
+    display: flex;
+    overflow: scroll;
+}
+.recipe__content__item{
+    width: 30vw;
+    margin-right: 24px;
+    flex-shrink: 0;
+}
+.recipe__content__item h5{
+    font-size: 24px;
+}
